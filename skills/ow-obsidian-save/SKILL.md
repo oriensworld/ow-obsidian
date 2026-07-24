@@ -14,10 +14,11 @@ Preserve durable knowledge, not a transcript of the chat.
 3. Search for an existing note that should be updated. Prefer a deliberate merge over duplication.
 4. Determine the destination from explicit user direction, local instructions, configured note roots, and neighboring note conventions.
 5. Use the user-provided title. If absent, choose a concise descriptive title unless local instructions require asking.
-6. Write declarative, self-contained Markdown that a future reader can understand without the conversation.
-7. Match established frontmatter and connect related notes with `[[wikilinks]]`.
-8. Update configured navigation, log, and hot cache when those artifacts exist and require maintenance.
-9. Confirm the saved note using its wikilink and vault-relative path.
+6. Sanitize the filename and reject traversal, reserved device names, control characters, source-root destinations, and collisions.
+7. Write declarative, self-contained Markdown that a future reader can understand without the conversation.
+8. Match established frontmatter and connect related notes with `[[wikilinks]]`; use `ow-obsidian-markdown` for syntax.
+9. Preview multi-file changes and update configured navigation, log, and hot cache sequentially, re-reading shared files immediately before merging.
+10. Confirm the saved note using its wikilink and vault-relative path.
 
 ## Selection rules
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ow Obsidian Research"
+  short_description: "Research and file cited knowledge into a vault"
+  default_prompt: "Use $ow-obsidian-research to investigate this topic and file cited notes."

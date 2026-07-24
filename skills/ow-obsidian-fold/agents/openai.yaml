@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ow Obsidian Fold"
+  short_description: "Roll up vault logs into traceable summaries"
+  default_prompt: "Use $ow-obsidian-fold to preview a traceable log rollup."

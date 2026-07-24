@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ow Obsidian Retrieve"
+  short_description: "Rank relevant passages from large vaults"
+  default_prompt: "Use $ow-obsidian-retrieve to find the best vault evidence for this query."

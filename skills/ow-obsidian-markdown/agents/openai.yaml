@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ow Obsidian Markdown"
+  short_description: "Write correct portable Obsidian Markdown"
+  default_prompt: "Use $ow-obsidian-markdown to format this note correctly."

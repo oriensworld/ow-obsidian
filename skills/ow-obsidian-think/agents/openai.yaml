@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ow Obsidian Think"
+  short_description: "Apply a structured ten-stage thinking loop"
+  default_prompt: "Use $ow-obsidian-think to reason carefully about this problem."

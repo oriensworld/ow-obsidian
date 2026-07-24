@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ow Obsidian Cli"
+  short_description: "Choose and use a safe vault transport"
+  default_prompt: "Use $ow-obsidian-cli to choose the safest available vault transport."

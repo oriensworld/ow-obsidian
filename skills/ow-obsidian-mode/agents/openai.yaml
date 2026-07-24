@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ow Obsidian Mode"
+  short_description: "Configure optional vault organization modes"
+  default_prompt: "Use $ow-obsidian-mode to configure this vault organization style."

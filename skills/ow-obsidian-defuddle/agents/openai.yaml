@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ow Obsidian Defuddle"
+  short_description: "Clean web pages into ingestion-ready Markdown"
+  default_prompt: "Use $ow-obsidian-defuddle to clean this web source for ingestion."

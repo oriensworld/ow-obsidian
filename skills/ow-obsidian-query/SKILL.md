@@ -11,7 +11,7 @@ Answer from the vault rather than from unstated model memory.
 
 1. Use the `ow-obsidian` vault-resolution workflow and read its `references/vault-contract.md`.
 2. Read the configured hot cache when present, then the main index or maps of content.
-3. Search note titles, aliases, tags, headings, body text, and wikilinks for the question's key terms and synonyms.
+3. Search note titles, aliases, tags, headings, body text, and wikilinks for the question's key terms and synonyms. Use `ow-obsidian-retrieve` for large vaults or ambiguous queries.
 4. Read the smallest set of relevant notes, then follow links needed to verify context or contradictions.
 5. Distinguish vault evidence, reasonable synthesis, and information absent from the vault.
 6. Answer directly and cite supporting notes with `[[wikilinks]]`. Mention conflicting or stale notes explicitly.

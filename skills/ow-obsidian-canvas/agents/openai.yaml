@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ow Obsidian Canvas"
+  short_description: "Create and maintain Obsidian canvas maps"
+  default_prompt: "Use $ow-obsidian-canvas to organize these vault artifacts visually."
