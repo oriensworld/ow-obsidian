@@ -20,6 +20,7 @@ Inspect first and report findings before making repairs.
    - index entries pointing nowhere or significant notes absent from navigation;
    - stale hot-cache claims or log/index disagreement;
    - portability problems such as absolute local paths.
+   - hidden tool/application directories incorrectly treated as knowledge or source roots.
 4. Report findings by severity with vault-relative file and line references when available.
 5. Include counts, assumptions, and excluded paths.
 6. Make repairs only when the user explicitly asks for fixes. Never repair immutable sources.

@@ -44,14 +44,15 @@ Fields may be omitted. Validate configured paths remain inside the resolved vaul
 
 When configuration is absent:
 
-- Source roots: prefer `01-inbox/`, then `.raw/`, `inbox/`, or a root identified by local instructions.
-- Note roots: identify folders already containing linked Markdown notes; do not assume all folders are writable knowledge roots.
+- Source roots: recognize only configured, locally documented, user-identified roots, or strong conventional names: `01-inbox/`, `.raw/`, or `inbox/`. Report "none configured" instead of guessing.
+- Note roots: identify non-hidden folders already containing linked Markdown notes; exclude the configured templates directory and do not assume all folders are writable knowledge roots.
 - Index: prefer an existing `index.md`, `Home.md`, or locally documented map of content.
 - Log: prefer an existing `log.md` or locally documented changelog.
 - Hot cache: prefer `hot-cache.md`, then `hot.md`, only when present.
 - Templates: prefer an existing `templates/` or `_templates/` directory.
+- Exclusions: never infer `.git/`, `.obsidian/`, `.serena/`, `.spec-workflow/`, `.claude/`, `.codex/`, `.agents/`, plugin caches, or other hidden tool/application directories as source or note roots.
 
-Inspect representative notes to learn frontmatter, filenames, headings, link style, and append/prepend conventions before writing.
+Use progressive inspection: read the hot cache and index first; inspect headings or frontmatter from at most one representative note per candidate root only when needed. Do not read the full log, every template, or full representative notes merely to report vault status.
 
 ## Mutation invariants
 
@@ -62,3 +63,4 @@ Inspect representative notes to learn frontmatter, filenames, headings, link sty
 - Update existing navigation, log, and hot-cache artifacts only when the vault contract calls for them.
 - Avoid application-specific metadata unless already established in the vault.
 - Report every created or materially updated note by vault-relative path.
+- Distinguish pre-existing or tool-created workspace state from files changed by the current OW Obsidian operation.
