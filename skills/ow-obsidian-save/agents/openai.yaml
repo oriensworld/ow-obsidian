@@ -1,0 +1,4 @@
+interface:
+  display_name: "OW Obsidian Save"
+  short_description: "Save durable insights as linked notes"
+  default_prompt: "Use $ow-obsidian-save to preserve this insight in the vault."

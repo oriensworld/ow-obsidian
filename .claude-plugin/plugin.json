@@ -1,0 +1,20 @@
+{
+  "name": "ow-obsidian",
+  "version": "0.1.0",
+  "description": "Portable Obsidian knowledge workflows for Claude Code and Codex.",
+  "author": {
+    "name": "Oriens World",
+    "url": "https://github.com/oriensworld"
+  },
+  "homepage": "https://github.com/oriensworld/ow-obsidian",
+  "repository": "https://github.com/oriensworld/ow-obsidian",
+  "license": "MIT",
+  "keywords": [
+    "obsidian",
+    "knowledge-base",
+    "markdown",
+    "wikilinks",
+    "claude",
+    "codex"
+  ]
+}

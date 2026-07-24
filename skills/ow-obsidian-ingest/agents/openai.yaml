@@ -1,0 +1,4 @@
+interface:
+  display_name: "OW Obsidian Ingest"
+  short_description: "Turn immutable sources into linked notes"
+  default_prompt: "Use $ow-obsidian-ingest to ingest sources into this vault."

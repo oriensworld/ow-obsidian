@@ -1,0 +1,38 @@
+{
+  "name": "ow-obsidian",
+  "version": "0.1.0",
+  "description": "Portable Obsidian knowledge workflows for Claude and Codex.",
+  "author": {
+    "name": "Oriens World",
+    "url": "https://github.com/oriensworld"
+  },
+  "homepage": "https://github.com/oriensworld/ow-obsidian",
+  "repository": "https://github.com/oriensworld/ow-obsidian",
+  "license": "MIT",
+  "keywords": [
+    "obsidian",
+    "knowledge-base",
+    "markdown",
+    "wikilinks",
+    "claude",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OW Obsidian",
+    "shortDescription": "Maintain portable Obsidian knowledge vaults.",
+    "longDescription": "Discover a consuming Obsidian vault, ingest immutable sources into derived notes, query linked knowledge, save durable insights, and audit vault health.",
+    "developerName": "Oriens World",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/oriensworld/ow-obsidian",
+    "defaultPrompt": [
+      "Inspect and summarize this Obsidian vault.",
+      "Ingest a source into linked notes.",
+      "Audit this vault for broken links."
+    ]
+  }
+}

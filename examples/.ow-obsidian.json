@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "sourceRoots": [
+    "01-inbox"
+  ],
+  "noteRoots": [
+    "concepts",
+    "research",
+    "specs"
+  ],
+  "index": "index.md",
+  "log": "log.md",
+  "hotCache": "hot-cache.md",
+  "templates": "templates"
+}

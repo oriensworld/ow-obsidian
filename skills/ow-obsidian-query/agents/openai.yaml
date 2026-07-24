@@ -1,0 +1,4 @@
+interface:
+  display_name: "OW Obsidian Query"
+  short_description: "Answer questions from linked vault notes"
+  default_prompt: "Use $ow-obsidian-query to answer this from the current vault."

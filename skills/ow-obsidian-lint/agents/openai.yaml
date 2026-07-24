@@ -1,0 +1,4 @@
+interface:
+  display_name: "OW Obsidian Lint"
+  short_description: "Audit links and knowledge-vault health"
+  default_prompt: "Use $ow-obsidian-lint to audit the current vault."

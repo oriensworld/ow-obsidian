@@ -1,0 +1,4 @@
+interface:
+  display_name: "OW Obsidian"
+  short_description: "Maintain portable Obsidian knowledge vaults"
+  default_prompt: "Use $ow-obsidian to inspect and maintain this Obsidian vault."
