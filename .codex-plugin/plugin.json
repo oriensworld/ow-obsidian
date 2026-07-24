@@ -1,7 +1,7 @@
 {
   "name": "ow-obsidian",
-  "version": "0.1.0",
-  "description": "Portable Obsidian knowledge workflows for Claude and Codex.",
+  "version": "0.2.0",
+  "description": "Fifteen portable Obsidian knowledge workflows for Claude and Codex.",
   "author": {
     "name": "Oriens World",
     "url": "https://github.com/oriensworld"
@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "OW Obsidian",
     "shortDescription": "Maintain portable Obsidian knowledge vaults.",
-    "longDescription": "Discover a consuming Obsidian vault, ingest immutable sources into derived notes, query linked knowledge, save durable insights, and audit vault health.",
+    "longDescription": "Discover and maintain an Obsidian vault with ingestion, query, lint, save, research, retrieval, Markdown, Bases, Canvas, transport, modes, folding, cleanup, and structured-thinking workflows.",
     "developerName": "Oriens World",
     "category": "Productivity",
     "capabilities": [

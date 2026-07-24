@@ -11,6 +11,7 @@ This repository contains a portable Claude/Codex plugin. It is not an Obsidian v
 - Treat source roots in a consuming vault as immutable unless that vault explicitly says otherwise.
 - Preserve portable Markdown and Obsidian wikilinks in generated notes.
 - Update both `.claude-plugin/plugin.json` and `.codex-plugin/plugin.json` when release metadata changes.
+- Keep the fifteen OW skill capabilities and their Claude adapters mapped in `README.md`.
 
 ## Validation
 

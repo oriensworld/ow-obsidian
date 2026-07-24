@@ -9,6 +9,10 @@ Portable Obsidian knowledge workflows for Claude Code and Codex. The plugin is i
 - Answer questions from vault evidence with wikilink citations.
 - Save durable conversation insights into the vault.
 - Audit broken links, orphans, duplicate titles, and stale navigation.
+- Research external topics and file source-grounded synthesis.
+- Retrieve ranked local passages without external data egress.
+- Create Obsidian Markdown, Bases, and JSON Canvas artifacts.
+- Clean web pages, select vault transports, configure organization modes, fold logs, and apply structured thinking.
 
 ## Use
 
@@ -21,6 +25,16 @@ Open Claude Code or Codex in the actual vault directory.
 | Query | `/obsidian-query <question>` | `$ow-obsidian-query` |
 | Save | `/obsidian-save [title]` | `$ow-obsidian-save` |
 | Lint | `/obsidian-lint` | `$ow-obsidian-lint` |
+| Research | `/obsidian-research <topic>` | `$ow-obsidian-research` |
+| Retrieve | `/obsidian-retrieve <query>` | `$ow-obsidian-retrieve` |
+| Clean web content | `/obsidian-defuddle <URL>` | `$ow-obsidian-defuddle` |
+| Markdown | `/obsidian-markdown <request>` | `$ow-obsidian-markdown` |
+| Bases | `/obsidian-bases <request>` | `$ow-obsidian-bases` |
+| Canvas | `/obsidian-canvas <request>` | `$ow-obsidian-canvas` |
+| Transport | `/obsidian-cli <operation>` | `$ow-obsidian-cli` |
+| Organization mode | `/obsidian-mode <mode>` | `$ow-obsidian-mode` |
+| Fold logs | `/obsidian-fold <request>` | `$ow-obsidian-fold` |
+| Structured thinking | `/obsidian-think <problem>` | `$ow-obsidian-think` |
 
 Natural-language requests can also activate the skills.
 
@@ -31,6 +45,7 @@ Configuration is optional. Add `.ow-obsidian.json` to a vault root when auto-dis
 ```json
 {
   "version": 1,
+  "mode": "existing",
   "sourceRoots": ["01-inbox"],
   "noteRoots": ["concepts", "research", "specs"],
   "index": "index.md",
@@ -48,4 +63,4 @@ Claude users can install the plugin from the `oriensworld/ow-marketplace` market
 
 ## Attribution
 
-This project is inspired by the MIT-licensed [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) project and Andrej Karpathy's LLM Wiki pattern. It is an independent, vault-agnostic implementation.
+This project maps the user-facing capabilities of the MIT-licensed [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) project into an independent vault-agnostic Claude/Codex implementation. It is also inspired by Andrej Karpathy's LLM Wiki pattern.

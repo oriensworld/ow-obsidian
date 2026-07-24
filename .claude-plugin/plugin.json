@@ -1,7 +1,7 @@
 {
   "name": "ow-obsidian",
-  "version": "0.1.0",
-  "description": "Portable Obsidian knowledge workflows for Claude Code and Codex.",
+  "version": "0.2.0",
+  "description": "Fifteen portable Obsidian knowledge workflows for Claude Code and Codex.",
   "author": {
     "name": "Oriens World",
     "url": "https://github.com/oriensworld"
